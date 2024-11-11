@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            border: black 1px solid;
+            width: 98vw;
+            height: 10vh;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(0, 132, 255);
+            color: white;
+            border-radius: 0.4em;
+        }
+        footer{
+            border: black 1px solid;
+            width: 98vw;
+            height: 10vh;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(0, 132, 255);
+            color: white;
+            border-radius: 0.4em;
+        }
+        #mainsidebar{
+            display: flex;
+            margin-top: 1vh;
+            margin-bottom: 1vh;
+            gap: 10px;
+            width: 98vw;
+            height: 38vh;
+            flex-grow: 3;
+        }
+        #maincon{
+            border: black 1px solid;
+            background-color: rgb(0, 255, 106);
+            border-radius: 0.4em;
+            height: 38vh;
+        }
+        #main{
+            color: white;
+            margin-left: 15px;
+            flex-wrap: wrap;
+        }
+        .item{
+            border: 1px solid black;
+            height: 7vh;
+            width: 10vw;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            border-radius: 0.4em;
+            background-color: rgb(2, 162, 2);
+            color: white;
+            justify-content: center;
+            display: flex;
+        }
+        #allitem{
+            display: flex;
+            width: 60vw;
+            flex-wrap: wrap;
+        }
+        #sidebar{
+            border: black 1px solid;
+            border-radius: 0.4em;
+            width: 40vw;
+            background-color: red;
+            height: 38vh;
+        }
+        #sidebar p{
+            margin: 10px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header><p>header</p></header>
+    <div id="mainsidebar">
+        <main>
+            <div id="maincon">
+                <div id="main"><p>main</p></div>
+                <div id="allitem">
+                    <div class="item"><p>item</p></div>
+                    <div class="item"><p>item</p></div>
+                    <div class="item"><p>item</p></div>
+                    <div class="item"><p>item</p></div>
+                    <div class="item"><p>item</p></div>
+                    <div class="item"><p>item</p></div>
+                    <div class="item"><p>item</p></div>
+                    <div class="item"><p>item</p></div>
+                    <div class="item"><p>item</p></div>
+                    <div class="item"><p>item</p></div>
+                    <div class="item"><p>item</p></div>
+                </div>
+            </div>
+        </main>
+        <div id="sidebar"><p>sidebar</p></div>
+    </div>
+    <footer>footer</footer>
+</body>
+</html>
